@@ -2,7 +2,7 @@
 
 **Version 1.0.0**
 
-Java Word Guesser GUI application
+Java Phrase Guesser GUI application
 
 #### Overview
 This java GUI application guesses a phrase types by user. This guess
