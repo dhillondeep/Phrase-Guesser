@@ -1,5 +1,6 @@
 package com.finder.window;
 
+import javax.swing.*;
 import java.awt.*;
 
 /**
@@ -41,8 +42,24 @@ public class PhraseGuesser {
         return new Dimension(width, height);
     }
 
-    // main method
+    // control() handles on screen key and mouse events and makes the
+    // on screen logic flow
+    public void control(){
+        // when run button is clicked
+        w.getRunButton().addActionListener(event->{
+            System.out.println("Run clicked");
+        });
+
+        // when reset button is clicked
+        w.getResetButton().addActionListener(event ->{
+            System.out.println("Reset clicked");
+        });
+    }
+
+    // main method runs the program
     public static void main(String[] args) {
-        new PhraseGuesser();
+        SwingUtilities.invokeLater(() ->{
+           new PhraseGuesser().control();
+        });
     }
 }
