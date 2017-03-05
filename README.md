@@ -5,7 +5,7 @@
 Java Phrase Guesser GUI application
 
 #### Overview
-This java GUI application guesses a phrase types by user. This guess
+This java GUI application guesses a phrase typed by user. This guess
 process is done by implementing genetic algorithm
 
 ---
