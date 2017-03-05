@@ -5,7 +5,7 @@ import java.awt.*;
 
 /**
  * Created by Deep on 2017-03-04.
- * This creates the window and add control to it so that user can use it
+ * This creates the window and add functionality to it so that user can use it
  */
 public class PhraseGuesser {
     // global fields

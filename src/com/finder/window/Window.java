@@ -4,7 +4,8 @@ import javax.swing.*;
 
 /**
  * Created by Deep on 2017-03-04.
- * Window creates a frame and adds various components to it
+ * Window creates a frame and adds components to it. It provides getters so
+ * that those components can be used
  */
 public class Window extends JFrame
 {
