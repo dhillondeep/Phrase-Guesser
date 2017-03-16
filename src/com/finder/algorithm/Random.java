@@ -1,10 +1,10 @@
-package com.deep.finder.ga;
+package com.finder.algorithm;
 
 import java.security.SecureRandom;
 
 /**
  * Created by Deep6 on 2016-12-16.
- * Description: Used to create random numbers
+ * Random class is used to create random numbers
  */
 
 public class Random
@@ -18,7 +18,7 @@ public class Random
         this.random = new SecureRandom();
     }
 
-    // produceInt produces a random number between startInt and endInt.
+    // produceInt(startInt, endInt) produces a random number between startInt and endInt.
     // It includes startInt and endInt values
     public int produceInt (int startInt, int endInt)
     {
