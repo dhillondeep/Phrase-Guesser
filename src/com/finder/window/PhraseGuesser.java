@@ -161,7 +161,40 @@ public class PhraseGuesser {
 
         // when reset button is clicked
         w.getResetButton().addActionListener(event ->{
-            System.out.println("Reset clicked");
+            // default values for different components
+            String defaultFitnessVal = "";
+            String defaultGenerationVal = "";
+            String defaultInputVal = "Type a phrase here";
+            String defaultAlgoVal = "";
+            String defaultMutationVal = "001";
+
+
+            // cancel the algorithm but only if RunAlgorithm object was created
+            if (geMade)
+            {
+                ge.cancel(true);
+                ge.end();
+            }
+
+            // make user input field editable
+            w.getUserInputTextField().setEditable(true);
+
+            // make mutation rate button editable
+            w.getRateInputTextField().setEditable(true);
+
+            // make run button clickable
+            w.getRunButton().setEnabled(true);
+
+            // set default values for every component
+            w.getUserInputTextField().setText(defaultInputVal);
+            w.getRateInputTextField().setText(defaultMutationVal);
+            w.getShowGenerationTextArea().setText(defaultGenerationVal);
+            w.getShowFitnessTextArea().setText(defaultFitnessVal);
+            w.getAlgoOutputTextArea().setText(defaultAlgoVal);
+
+            // reset the values for ra and RunAlgorithm object
+            geMade = false;
+            ge = null;
         });
     }
 
