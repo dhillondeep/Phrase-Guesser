@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ab20f08-3ca2-41ee-a2f8-7a7bcb0b10cd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Phrase-Guesser.iml" afterPath="$PROJECT_DIR$/Phrase-Guesser.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/finder/algorithm/Random.java" afterPath="$PROJECT_DIR$/src/com/finder/algorithm/Random.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/finder/window/PhraseGuesser.java" afterPath="$PROJECT_DIR$/src/com/finder/window/PhraseGuesser.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,22 +21,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PhraseGuesser.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PhraseGuesser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/finder/window/PhraseGuesser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="78" />
+            <state relative-caret-position="-1026">
+              <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GeneticExecution.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GeneticExecution.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/finder/window/GeneticExecution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="540">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,16 +76,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gene.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/finder/algorithm/Gene.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4698">
-              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -115,6 +101,7 @@
         <option value="$PROJECT_DIR$/src/com/finder/algorithm/DNA.java" />
         <option value="$PROJECT_DIR$/src/com/finder/algorithm/Population.java" />
         <option value="$PROJECT_DIR$/src/com/finder/window/GeneticExecution.java" />
+        <option value="$PROJECT_DIR$/src/com/finder/window/PhraseGuesser.java" />
       </list>
     </option>
   </component>
@@ -622,12 +609,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489697353927</updated>
-      <workItem from="1489697357622" duration="2152000" />
+      <workItem from="1489697357622" duration="3006000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2152000" />
+    <option name="totallyTimeSpent" value="3006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-13" y="-13" width="3866" height="2186" extended-state="6" />
@@ -679,30 +666,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/finder/window/PhraseGuesser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/finder/algorithm/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/finder/algorithm/Gene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4698">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/finder/algorithm/DNA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5454">
@@ -724,8 +687,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/finder/window/GeneticExecution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="540">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/finder/algorithm/Gene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="91" column="24" lean-forward="true" selection-start-line="91" selection-start-column="24" selection-end-line="91" selection-end-column="24" />
+          <folding>
+            <element signature="e#2527#2528#0" expanded="true" />
+            <element signature="e#2558#2559#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/finder/algorithm/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/finder/window/PhraseGuesser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1026">
+          <caret line="26" column="46" lean-forward="true" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
           <folding />
         </state>
       </provider>
